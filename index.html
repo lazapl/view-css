@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            height: 260vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .obrazek{
+            opacity: 1;
+            animation-timeline: view(100px);
+            
+            animation: showw linear 3s;
+        }
+        @keyframes showw{
+            50% {opacity: 0;}
+        }
+
+
+
+    </style>
+  </head>
+  <body>
+    <img class="obrazek" src="Universe-cosmos-formation-creating-planets-of-the-solar-system-elements-furnished-NASA.jpg">
+  </body>
+</html>
